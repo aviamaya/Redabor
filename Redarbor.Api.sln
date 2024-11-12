@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redarbor.Api", "Redarbor.Api\Redarbor.Api.csproj", "{BCC50298-AC0B-4ECE-B7CA-F57CDE964B2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1B49742E-B8A6-48A8-A247-2EE6C79E7B9F} = {1B49742E-B8A6-48A8-A247-2EE6C79E7B9F}
+		{725574FB-1849-4CFB-BBCF-24EC34281A4C} = {725574FB-1849-4CFB-BBCF-24EC34281A4C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redarbor.Core", "Redarbor.Core\Redarbor.Core.csproj", "{725574FB-1849-4CFB-BBCF-24EC34281A4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redarbor.Infraestructure", "Redarbor.Infraestructure\Redarbor.Infraestructure.csproj", "{1B49742E-B8A6-48A8-A247-2EE6C79E7B9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{725574FB-1849-4CFB-BBCF-24EC34281A4C} = {725574FB-1849-4CFB-BBCF-24EC34281A4C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
